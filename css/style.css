@@ -4,19 +4,81 @@
     box-sizing: border-box;
 }
 
+/* common */
 main{
-    width: 55%;
-    margin: 0 auto;
+    width: 57%;
+    margin: 0 auto 70px;
 }
-
 img{
     width: 300px;
 }
 
+/* inserzione */
 .inserzione{
+    position: relative;
     display: inline-block;
     width: 300px;
-    background-color: blanchedalmond;
-    height: 450px;
+    height: 500px;
     margin: 10px;
 }
+
+/* parte immagini */
+.image{
+    position: relative;
+    height: 440px;
+}
+.immagine2{
+    display: none;
+}
+#cambioimmagine:hover .immagine1 {
+    display: none;
+}
+#cambioimmagine:hover .immagine2 {
+    display: block;
+}
+.sostenibilita{
+    display: inline-block;
+    position: relative;
+    bottom: 10%;
+    left: 1%;
+    background-color: #3CB371;
+    color: white;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.sconto{
+    display: inline-block;
+    bottom: 10%;
+    left: 1%;
+    position: relative;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.heart{
+    position: absolute;
+    background-color: white;
+    padding: 17px;
+    top: 7%;
+    right: 0;
+    font-size: 25px;
+}
+
+/* parte descrizione */
+.description :last-child{
+    color: red;
+    font-weight: 700;
+}
+.description :nth-last-child(2){
+    font-weight: 700;
+    font-size: 20px;
+}
+#firstprice{
+    color: black;
+    text-decoration: line-through
+}
+
+ 
