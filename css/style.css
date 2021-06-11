@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 55%;
+    margin: 0 auto;
+}
+
+img{
+    width: 300px;
+}
+
+.inserzione{
+    display: inline-block;
+    width: 300px;
+    background-color: blanchedalmond;
+    height: 450px;
+    margin: 10px;
+}
